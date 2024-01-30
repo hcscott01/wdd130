@@ -16,7 +16,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a :hover{
+nav a:hover{
     color: blueviolet;
 }
 
@@ -44,4 +44,8 @@ img{
 
 #sub_title{
     color: red;
+}
+
+footer{
+    background-color: blanchedalmond;
 }
