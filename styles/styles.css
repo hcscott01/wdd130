@@ -8,8 +8,22 @@ body{
     font-size: 1.3em;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+nav a :hover{
+    color: blueviolet;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
 #main_title {
-    font-size: 2em;
+    font-size: 4em;
+    text-align: center;
 }
 
 #sub_title{
