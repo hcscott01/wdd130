@@ -7,7 +7,11 @@ body{
     color: navy;
     font-size: 1.3em;
 }
-
+#content{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
 nav a {
     text-decoration: none;
 }
@@ -19,6 +23,12 @@ nav a :hover{
 nav{
     display: flex;
     justify-content: center;
+    background-color: blanchedalmond;
+}
+
+p{
+    text-align: center;
+    color: black;
 }
 
 img{
