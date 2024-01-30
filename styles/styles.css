@@ -21,6 +21,12 @@ nav{
     justify-content: center;
 }
 
+img{
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
 #main_title {
     font-size: 4em;
     text-align: center;
