@@ -1,0 +1,53 @@
+body{
+    background-color: coral;
+}
+
+#title {
+    color: white;
+    text-align: center;   
+}
+
+#title:hover{
+    color: black;
+}
+
+#quote {
+    text-align: center;
+    color: white;
+}
+
+#quote_giver {
+    text-align: center;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto ;
+    width: 20%;
+}
+
+#atonement {
+    color: white;
+    text-align: center;
+}
+
+#prophet_name{
+    text-align: center;
+}
+
+#church_name{
+    text-align: center;
+}
