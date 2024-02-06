@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Rubik+Spray+Paint&display=swap');
+
 body{
     background-color: lightskyblue;
+}
+
+h1{
+
 }
 
 .nav_link {
@@ -29,7 +35,13 @@ nav{
 p{
     text-align: center;
     color: black;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px ;
+    font-family: Rubik Spray Paint;
+    background-color:coral;
 }
+
 
 img{
     width: 70%;
@@ -46,6 +58,12 @@ img{
     color: red;
 }
 
-footer{
+footer {
+    text-align: center;
+    color: black;
+    width: 70%;
+    margin: 0 auto;
+    padding: 18px ;
+    font-family: 'Protest Riot';
     background-color: blanchedalmond;
 }
