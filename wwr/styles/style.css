@@ -9,6 +9,7 @@ nav a{
     text-align: center;
     color:#172A3A;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -22,6 +23,11 @@ nav a:hover{
 
 #hero-msg h4{
     text-align: center;
+}
+
+#hero-img{
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .button-box{
@@ -39,6 +45,10 @@ main section{
 
 body{
     background-color: whitesmoke ;
+    font-family:Protest Riot ;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header{
@@ -49,12 +59,20 @@ header{
     background-color: #09BC8A;
     color: #172A3A;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color: #09BC8A;
     color: #172A3A;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{   
@@ -69,11 +87,15 @@ header{
 
 .msg{
     background-color: #74B3CE;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer{
     background-color: #74B3CE;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -95,14 +117,17 @@ h4{
 
 .msg h2{
     color: black;
+    font-family:Rubik Spray Paint;
 }
 
 .msg p{
     color: black;
+    padding-bottom: 15px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer p {
@@ -112,3 +137,46 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+.home-title{
+    font-family: Rubik Spray Paint;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card{
+    margin-top: 200px 0;
+}
+
+.camping-card{
+    margin-top: 200px 0;
+}
+
+.rapids-card{
+    margin-top: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #172A3A;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
