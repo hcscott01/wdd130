@@ -1,0 +1,28 @@
+.bubble{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+#pics{
+    margin: 0 auto;
+    max-width: 1600px;
+    text-align: center;
+    background-color: gray;
+    padding: 0px;
+}
+
+.desk{
+    border-radius: 60%;
+    width: 20%;
+}
+
+.weird{
+    border-radius: 60%;
+    width: 20%;
+}
+
+.dude{
+    border-radius: 60%;
+    width: 20%;
+}
