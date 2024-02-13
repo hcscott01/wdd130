@@ -1,12 +1,13 @@
 .bubble{
-    max-width: 1600px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0%;
+    height: auto;
 }
 
 #pics{
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 100%;
     text-align: center;
     background-color: gray;
     padding: 0px;
