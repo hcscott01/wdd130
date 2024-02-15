@@ -1,5 +1,13 @@
 /* CSS - Name: "positionstyles.css" */
 /* Activity 1 styles */
+
+.content1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 20px;
+}
+
 .red1 {
   background-color: red;
   width: 100%;
@@ -12,7 +20,6 @@
   background-color: green;
   width: 200px;
   height: 200px;
-  
 }
 
 .yellow1 {
@@ -116,20 +123,20 @@
 } 
 .green4 {
   width: 100%; 
-  height: 150px; 
+  height: 140px; 
   background-color: green; 
   grid-column: 2/3;
   grid-row: 1/2;
 } 
 .yellow4 {
   width: 100%; 
-  height: 150px; 
+  height: 140px; 
   background-color: gold; 
   grid-column: 2/3;
 } 
 .blue4 {
   width: 100%; 
-  height: 150px; 
+  height: 140px; 
   background-color: blue; 
   grid-column: 2/4;
 } 
