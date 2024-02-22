@@ -26,7 +26,7 @@ nav a:hover{
 }
 
 #hero-img{
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -103,14 +103,17 @@ nav {
     z-index: -1;
 }
 
-.card-img {
-    width: 100%;
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .card-img {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
 }
 .card-img:hover {
     opacity: .6;
@@ -118,28 +121,31 @@ nav {
 }
 
 .rivers-card {
-    grid-column: 2 / span 3;
-    grid-row: 2 / span 2;
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+    padding-bottom: 50px;
   }
   
   .camping-card {
-    grid-column: 5 / span 3;
-    grid-row: 2 / span 2;
+    grid-column: 5 / span 2 ;
+    grid-row: 2 / span 1;
+    padding-bottom: 50px;
   }
   
   .rapids-card {
-    grid-column: 8 / span 3;
-    grid-row: 2 / span 2;
+    grid-column: 8 / span 2;
+    grid-row: 2 / span 1;
+    padding-bottom: 50px;
   }
   
   #background {
-    grid-column: 1 / span 11;
-    grid-row: 4 / span 6;
+    grid-column: 1 / span 10;
+    grid-row: 4 / span 5;
   }
   
   .mountains {
-    grid-column: 2 / span 6;
-    grid-row: 5 / span 4;
+    grid-column: 2 / span 5;
+    grid-row: 5 / span 3;
     width: 100%;
     box-shadow: 5px 5px 10px #6f7364;
   }
@@ -268,6 +274,7 @@ h4{
 .msg h2{
     color: black;
     font-family:Rubik Spray Paint;
+    letter-spacing: 2px;
 }
 
 .msg p{
@@ -275,9 +282,9 @@ h4{
     padding-bottom: 15px;
 }
 
-.icon {
+.icon, .logo {
     width: 80px;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 footer p {
@@ -292,6 +299,7 @@ footer p a:hover {
     font-family: Rubik Spray Paint;
     font-size: 2em;
     margin-top: 10px;
+    letter-spacing: 2px;
 }
 
 h2{
