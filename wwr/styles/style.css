@@ -341,3 +341,62 @@ main section img {
     margin-top: 100px;
     margin-bottom: 200px;
 }
+
+ .three_rivers{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; 
+    margin: 20px;
+}
+
+ .idaho{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+ .desolation{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+ .grand{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+ h1 {
+    font-size: 2em; 
+    margin-bottom: 10px; 
+    font-family: Rubik Spray Paint;
+    letter-spacing: .1em;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px; 
+    font-family: Protest Riot;
+    padding: auto;
+}
+
+.slide1, .slide2, .slide3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.salmon{
+    grid-column: 2/3;
+}
+
+#riverContent{
+        margin-bottom: -150px;
+}
