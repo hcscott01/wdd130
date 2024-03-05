@@ -384,6 +384,7 @@ p {
     margin-bottom: 10px; 
     font-family: Protest Riot;
     padding: auto;
+    
 }
 
 .slide1, .slide2, .slide3{
@@ -399,4 +400,22 @@ p {
 
 #riverContent{
         margin-bottom: -150px;
+}
+
+.utah{
+    background-color: lightskyblue;
+    background-origin: border-box;
+    padding: 0px 50px;
+}
+
+.salmon{
+    background-color: lightskyblue;
+    background-origin: border-box;
+    padding: 0px 50px;
+}
+
+.arizona{
+    background-color: lightskyblue;
+    background-origin: border-box;
+    padding: 0px 50px;
 }
