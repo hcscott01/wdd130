@@ -70,7 +70,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 120h;
     text-align: center;
 }
 
@@ -119,3 +118,4 @@ main{
     grid-row: 5/6;
     margin: 0 100px ;
 }
+
