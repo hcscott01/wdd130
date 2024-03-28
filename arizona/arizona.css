@@ -150,49 +150,41 @@ main{
     margin-bottom: 10px;
 }
 
- h1 {
-    font-size: 2em; 
-    margin-bottom: 10px; 
-    font-family: Rubik Spray Paint;
-    letter-spacing: .1em;
-}
-
 p {
     font-size: 1em;
     margin-bottom: 10px; 
-    font-family: Protest Riot;
+    font-family: Rubik;
     padding: auto;
-    
+}
+
+h2 {
+    font-family: Antonfamily;
 }
 
 .slide1, .slide2, .slide3{
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.cards{
+    background-color: #FD9100;
+    background-origin: border-box;
+    padding: 0px 50px;
 }
 
 .basketball{
+    background-color: #FFC916;
+    background-origin: border-box;
+    padding: 0px 50px;
     grid-column: 2/3;
 }
 
-
-.cards{
-    background-color: lightskyblue;
-    background-origin: border-box;
-    padding: 0px 50px;
-}
-
-.basketball{
-    background-color: lightskyblue;
-    background-origin: border-box;
-    padding: 0px 50px;
-}
-
 .arizona{
-    background-color: lightskyblue;
+    background-color: #9b448b;
     background-origin: border-box;
     padding: 0px 50px;
+    color: #ccc;
 }
 
 form {
