@@ -89,6 +89,10 @@ main{
     justify-items: center;
 }
 
+h1{
+    text-align: center;
+}
+
 .hero_title{
     grid-column: 1/3;
     grid-row: 1/2;
