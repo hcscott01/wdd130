@@ -91,6 +91,7 @@ main{
 
 h1{
     text-align: center;
+    font-family: Anton;
 }
 
 .hero_title{
@@ -162,7 +163,7 @@ p {
 }
 
 h2 {
-    font-family: Antonfamily;
+    font-family: Rubik;
 }
 
 .slide1, .slide2, .slide3{
@@ -252,3 +253,30 @@ form {
     margin-top: 3em;
 }
   
+.snakes {
+    text-align: center;
+    background-color: turquoise;
+    background-origin: border-box;
+    width: 40em;
+}
+
+.birds{
+    text-align: center;
+    background-color: crimson;
+    background-origin: border-box;
+}
+
+.star{
+    text-align: center;
+    background-color: #FFC916;
+    background-origin: border-box;
+}
+
+.bios{
+    align-items: center;
+    text-align: center;
+    display:flexbox ;
+    justify-content: center; 
+    margin-bottom: 60px;
+}
+
