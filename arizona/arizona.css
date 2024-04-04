@@ -159,7 +159,7 @@ p {
     font-size: 1em;
     margin-bottom: 10px; 
     font-family: Rubik;
-    padding: auto;
+    /* padding: auto; */
 }
 
 h2 {
@@ -273,10 +273,10 @@ form {
 }
 
 .bios{
-    align-items: center;
     text-align: center;
-    display:flexbox ;
+    /* display:flex ;
     justify-content: center; 
+    align-items: center; */
     margin-bottom: 60px;
 }
 
