@@ -51,6 +51,7 @@ function renderRecipes(recipeList) {
     outputElement.innerHTML = recipesHTML;
 }
 
+
 function init() {
     const recipeRandom = getRandomListEntry(recipes);
     renderRecipes([recipeRandom]);
