@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 html, body {
-    height: 100%; /* Ensure full viewport height */
+    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,72 +12,66 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Make sure the body fills the screen */
+    min-height: 100vh;
     width: 100%;
 }
 
-/* Header Styling */
 header {
-    background-color: #493D67;  /* Background color */
-    color: white;  /* Text color */
-    padding: 10px 20px;  /* Reduced padding for a thinner header */
-    font-size: 24px;  /* Adjusted font size for header text */
-    width: 100%;  /* Full width */
-    box-sizing: border-box;  /* Ensures padding does not affect width */
+    background-color: #493D67;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
-    justify-content: space-between; /* Align logo and links properly */
-    align-items: center; /* Vertically center the content */
-    text-align: center;  /* Center align text */
-    margin-bottom: 0;  /* Remove margin below the header */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
 }
 
-/* Header Links */
 header a {
     color: white;
     text-decoration: none;
-    font-size: 16px;  /* Adjusted font size for navigation links */
-    padding: 5px 10px;  /* Padding for the links */
-    margin: 0 15px;  /* Spacing between links */
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 0 15px;
 }
 
 header a:hover {
-    background-color: #FD9100;  /* Hover effect for links */
+    background-color: #FD9100;
 }
 
-/* Logo Styling */
 #logo_link {
     display: flex;
-    align-items: center;  /* Vertically center the logo */
-    justify-content: center;  /* Horizontally center the logo */
+    align-items: center;
+    justify-content: center;
 }
 
 .az_logo {
-    width: 120px;  /* Fixed width */
-    height: auto; /* Maintain aspect ratio */
+    width: 120px;
+    height: auto;
 }
 
-/* Footer */
 footer {
     background-color: #493D67;
     color: white;
     text-align: center;
-    padding: 20px 50px;  /* Reduced padding for a more compact footer */
-    margin-top: auto; /* Push footer to the bottom */
-    width: 100%;  /* Full width */
+    padding: 20px 50px;
+    margin-top: auto;
+    width: 100%;
 }
 
-/* Content Area Styling */
 #content {
-    flex-grow: 1; /* Allow content to grow and fill the available space */
+    flex-grow: 1;
     width: 100%;
-    padding: 0 20px;  /* Reduced padding */
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Ensure the content starts from the top */
-    margin-top: 0; /* Ensure no space between header and content */
+    justify-content: flex-start;
+    margin-top: 0;
 }
 
-/* Hero Section */
 .hero_title,
 .hero_p1,
 .hero_p2,
@@ -87,7 +81,6 @@ footer {
     margin: 0 50px;
 }
 
-/* Quiz Section */
 #quiz-section {
     width: 100%;
     max-width: 800px;
@@ -102,7 +95,6 @@ footer {
     gap: 15px;
 }
 
-/* Quiz title */
 #quiz-section h2 {
     text-align: center;
     margin-bottom: 15px;
@@ -110,14 +102,12 @@ footer {
     font-weight: bold;
 }
 
-/* Quiz form layout */
 #quiz-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-/* Style each question */
 #quiz-form .question {
     margin-bottom: 10px;
 }
@@ -127,13 +117,11 @@ footer {
     display: block;
 }
 
-/* Style for the radio buttons */
 #quiz-form input[type="radio"] {
     margin-right: 10px;
     vertical-align: middle;
 }
 
-/* Style the quiz result text */
 #quiz-result {
     text-align: center;
     font-size: 20px;
@@ -142,7 +130,6 @@ footer {
     color: #007BFF;
 }
 
-/* Style the submit button */
 button[type="submit"] {
     align-self: center;
     padding: 8px 15px;
@@ -157,7 +144,6 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* General Layout for Sections */
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -165,7 +151,6 @@ main {
     justify-items: center;
 }
 
-/* Styling for Sections */
 .bios {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -178,12 +163,12 @@ main {
 .best_around,
 .football,
 .baseball {
-    width: 100%;  /* Allow to scale to container width */
-    max-width: 500px;  /* Prevent stretching by limiting max-width */
-    height: auto;  /* Maintain aspect ratio */
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     display: block;
     margin-bottom: 10px;
-    object-fit: cover;  /* Optional: ensures image covers the container without distortion */
+    object-fit: cover;
 }
 
 p {
@@ -196,28 +181,26 @@ h2 {
     font-family: Rubik;
 }
 
-/* Cards Styling */
 .cards {
     background-color: #FD9100;
     background-origin: border-box;
-    padding: 0px 30px; /* Reduced padding */
+    padding: 0px 30px;
 }
 
 .basketball {
     background-color: #FFC916;
     background-origin: border-box;
-    padding: 0px 30px; /* Reduced padding */
+    padding: 0px 30px;
     grid-column: 2/3;
 }
 
 .arizona {
     background-color: #9b448b;
     background-origin: border-box;
-    padding: 0px 30px; /* Reduced padding */
+    padding: 0px 30px;
     color: #ccc;
 }
 
-/* Feedback Box Styling */
 #feedback {
     background-color: antiquewhite;
     position: absolute;
@@ -228,7 +211,6 @@ h2 {
     display: none;
 }
 
-/* Additional Styling for Other Sections */
 .snakes {
     text-align: center;
     background-color: turquoise;
@@ -248,11 +230,10 @@ h2 {
     background-origin: border-box;
 }
 
-/* For Mobile-First Adjustments */
 @media (max-width: 768px) {
     #content {
         padding: 10px;
-        margin-top: 0; /* Ensure no space above the content */
+        margin-top: 0;
     }
 
     main {
