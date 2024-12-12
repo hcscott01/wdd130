@@ -52,8 +52,8 @@ header a:hover {
 }
 
 .az_logo {
-    width: 120px;  /* Adjusted logo width */
-    height: auto;
+    width: 120px;  /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Footer */
@@ -87,30 +87,10 @@ footer {
     margin: 0 50px;
 }
 
-.hero_title {
-    grid-row: 1/2;
-}
-
-.hero_p1 {
-    grid-row: 2/3;
-}
-
-.hero_p2 {
-    grid-row: 3/4;
-}
-
-.hero_p3 {
-    grid-row: 4/5;
-}
-
-.hero_p4 {
-    grid-row: 5/6;
-}
-
 /* Quiz Section */
 #quiz-section {
-    width: 100%; /* Full width of content */
-    max-width: 800px; /* Limit the width of the quiz section */
+    width: 100%;
+    max-width: 800px;
     margin: 30px auto;
     padding: 20px;
     background-color: #f8f8f8;
@@ -120,7 +100,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-top: 20px;
 }
 
 /* Quiz title */
@@ -199,10 +178,12 @@ main {
 .best_around,
 .football,
 .baseball {
-    width: 100%;
-    height: auto;
+    width: 100%;  /* Allow to scale to container width */
+    max-width: 500px;  /* Prevent stretching by limiting max-width */
+    height: auto;  /* Maintain aspect ratio */
     display: block;
     margin-bottom: 10px;
+    object-fit: cover;  /* Optional: ensures image covers the container without distortion */
 }
 
 p {
@@ -213,14 +194,6 @@ p {
 
 h2 {
     font-family: Rubik;
-}
-
-.slide1,
-.slide2,
-.slide3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Cards Styling */
@@ -253,10 +226,6 @@ h2 {
     right: 0;
     padding: .5em;
     display: none;
-}
-
-.moveDown {
-    margin-top: 2em;
 }
 
 /* Additional Styling for Other Sections */
@@ -302,5 +271,12 @@ h2 {
 
     .quiz-section {
         width: 90%;
+    }
+
+    .best_around,
+    .football,
+    .baseball {
+        width: 100%;
+        max-width: 100%;
     }
 }

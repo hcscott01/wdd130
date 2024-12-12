@@ -1,8 +1,6 @@
-// Select all images and add event listener for fullscreen pop-out effect
 document.querySelectorAll('.best_around, .football, .baseball').forEach((img) => {
-    img.style.cursor = 'pointer'; // Add pointer cursor for interactivity
+    img.style.cursor = 'pointer';
     img.addEventListener('click', () => {
-        // Create a fullscreen container
         const fullscreenContainer = document.createElement('div');
         fullscreenContainer.style.position = 'fixed';
         fullscreenContainer.style.top = '0';
@@ -16,23 +14,19 @@ document.querySelectorAll('.best_around, .football, .baseball').forEach((img) =>
         fullscreenContainer.style.zIndex = '1000';
         fullscreenContainer.style.cursor = 'pointer';
 
-        // Clone the image and add it to the container
         const fullscreenImage = img.cloneNode(true);
         fullscreenImage.style.maxWidth = '90%';
         fullscreenImage.style.maxHeight = '90%';
         fullscreenContainer.appendChild(fullscreenImage);
 
-        // Add container to the body
         document.body.appendChild(fullscreenContainer);
 
-        // Remove fullscreen container on click
         fullscreenContainer.addEventListener('click', () => {
             document.body.removeChild(fullscreenContainer);
         });
     });
 });
 
-// Create a comment section above the footer
 const footer = document.querySelector('footer');
 const commentSection = document.createElement('div');
 commentSection.id = 'commentSection';
@@ -46,10 +40,8 @@ commentSection.innerHTML = `
     <ul id="commentsList" style="list-style-type: none; padding: 0; margin-top: 20px;"></ul>
 `;
 
-// Insert the comment section before the footer
 footer.parentNode.insertBefore(commentSection, footer);
 
-// Add comment functionality
 document.getElementById('addCommentButton').addEventListener('click', () => {
     const commentInput = document.getElementById('commentInput');
     const commentText = commentInput.value.trim();
@@ -60,6 +52,6 @@ document.getElementById('addCommentButton').addEventListener('click', () => {
         newComment.style.padding = '10px';
         newComment.style.borderBottom = '1px solid #ccc';
         commentList.appendChild(newComment);
-        commentInput.value = ''; // Clear the text area
+        commentInput.value = '';
     }
 });
